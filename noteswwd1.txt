@@ -1,0 +1,54 @@
+typing 'use strict' at the top of a js doc you're working on will get ESLint to check your code
+as you enter it.
+
+literals - are immutable - canot be changed.
+
+variable - mutable - can be changed.
+
+literal values are assigned to variables.
+
+var myValue = "myValue";
+
+myValue = "newValue";
+
+variables
+
+constants
+
+every time you assign a new value to a variable you're creating a literal
+
+create literals whenever you can if you're going to use a value a bunch of times
+vs creating variables. Use less memory
+
+var is global
+
+let is local
+
+that's why var was a problem
+
+you can create breakpoints while debugging at the left of the line of code - f5 to continue
+
+six native data types on javascript
+
+one numeric - NUMBER (double precision floating point)
+stored as two data points, the numeral and the exponent
+floating point - the exponent value tells the computer where to put the decimal point
+
+STRINGS - unicode character - while numeric ASCII code - a number from 0-255 (256 characters), 
+a unicode character will use two bytes. 1 byte will yield 256 possible characters. 2 bytes = 16,799.
+eg: the word jeff would use 8bytes, 2 for each character
+
+BOOLEANS - true or false
+
+there is a difference between an undefined variable, and one that hasn't been assigned a value.
+
+hover over the expression for details. Just assign a default value, or else you may get an undefined error.
+
+NULL -
+
+UNDEFINED -
+
+SYMBOL -
+
+
+
